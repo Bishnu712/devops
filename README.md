@@ -32,3 +32,5 @@ git status: to check the current status of the files in repo (like, untracked, a
 git log: to view the commit information 
 
 git push --set-upstream origin <branch name>
+
+git push origin :<branch name> : to delete a branch from remote repository (example "git push origin :feature/task-1"
